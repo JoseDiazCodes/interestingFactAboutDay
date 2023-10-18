@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Numbers and Dates</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Discover Interesting Facts and History</h1>
+			<h2>
+				Enter a number (1-31) and learn a fact about that number and a
+				historical event from today's month!
+			</h2>
+
+			<div class="input-wrapper">
+				<input
+					type="number"
+					id="numberInput"
+					placeholder="Enter a number"
+					min="1"
+					max="31"
+				/>
+				<button>Fetch Data</button>
+			</div>
+
+			<div id="numberFact"></div>
+			<div id="dateEvent"></div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
